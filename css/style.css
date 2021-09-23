@@ -1,0 +1,327 @@
+colo{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #F0FFF0;
+}
+.navbar-brand{
+    width: 30%;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(0 0 0 / 90%);
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-left: 35px;
+}
+.btn-signin{
+    
+background-color: #21B573;
+    
+padding: 12px 28px;
+    
+margin-left: 29px;
+    
+border-radius: 33px;
+    
+color: white;
+transition: .1s all ease-in-out;
+}
+.btn-signin:hover{
+    color: white;
+    background-color: #1a6845;
+    margin-bottom: 5px;
+}
+.btnget{
+    background-color: #21B573;
+    padding: 12px 36px;
+    margin-left: 29px;
+    border-radius: 33px;
+    color: white;
+    text-transform: capitalize;
+    transition: .1s all ease-in-out;
+}
+.btnget:hover{
+    color: white;
+    background-color: #0b2c1d;
+    margin-bottom: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header h5{
+color: #FD511A;
+font-size: 16px;
+font-weight: 400;
+margin: 0;
+line-height: 24px;
+}
+header h1{
+
+color: black;
+
+font-size: 48px;
+
+line-height: 70px;
+
+font-weight: 700;
+}
+header p {
+
+color: #6C6B6B;
+
+font-size: 16px;
+
+line-height: 36px;
+}
+.banner{
+    padding: 100px 0 50px 0;
+}
+header h1 span{
+
+    color: #21b573;
+
+}
+
+.book{
+
+padding: 50px 0 75px 0;
+}
+.book-item1{
+
+background: #F8FFFB;
+
+padding: 50px 0;
+
+text-align: center;
+}
+.book-item1 img{
+
+width: 28%;
+}
+.book-item1 h2{
+
+color: #413960;
+
+font-weight: 500;
+
+font-size: 24px;
+
+margin: 0;
+
+line-height: 36px;
+
+margin-top: 22px;
+}
+.book-item1 p{
+
+font-size: 16px;
+
+line-height: 24px;
+
+color: #585859;
+
+margin: 0;
+}
+.book-item1:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.courses{
+
+padding-bottom: 50px;
+}
+.course-item{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 24px;
+}
+.course-item img{
+    
+}
+.course-item h1{font-weight: 500;font-size: 24px;margin-top: 20px;line-height: 36px;color: #413960;}
+.course-item p{
+    
+color: #585859;
+    
+line-height: 24px;
+}
+.btn-course{
+
+color: #ffffff;
+
+font-weight: normal;
+
+font-size: 16px;
+
+background: #21B573;
+
+border-radius: 33px;
+
+padding: 12px 36px;
+
+line-height: 19px;
+}
+.course-item ul{
+    
+margin: 0;
+    
+list-style: none;
+    
+padding: 0;
+    
+display: flex;
+    
+margin-top: 15px;
+    
+justify-content: space-between;
+}
+.course-item ul li{
+    
+color: #585859;
+    
+line-height: 24px;
+}
+.course-item ul li i{
+    
+margin-right: 15px;
+}
+.btn-course:hover{
+    color: white;
+    background-color: #0b2c1d;
+   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.client{
+    
+border-radius: 50%;
+    
+height: 90px;
+    
+width: 90px;
+    
+padding: 0;
+    
+margin-left: 30px;
+    
+overflow: hidden;
+    
+border: 1px solid black;
+}
+.testimonial p{
+    margin: 0;
+}
+.testimonial h1{
+    font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+}
+.last-part{
+
+background-color: #282531;
+
+color: #ffff;
+}
+.last-part p{
+    
+line-height: 30px;
+    
+margin: 0;
+    
+padding: 0;
+    
+font-size: 13px;
+    
+font-weight: 200;
+}
+.courses h1{
+
+color: #413960;
+
+font-size: 40px;
+
+font-weight: 700;
+}
+.course ul{
+
+list-style: none;
+
+font-size: 18px;
+
+padding: 0 0 0 20px;
+
+line-height: 30px;
+}
+.course ul li{text-align: start;font-weight: 100;}
+.terms{
+
+}
+.terms ul{list-style: none;font-size: 18px;padding: 0 0 0 74px;line-height: inherit;}
+.terms ul li{
+
+text-align: start;
+
+font-weight: 100;
+}
+.usefullink{
+
+}
+.usefullink ul{
+
+list-style: none;
+
+font-size: 18px;
+
+padding: 0 0 0 100px;
+
+line-height: 30px;
+}
+.usefullink ul li{
+
+text-align: start;
+
+font-weight: 100;
+}
+.usefullink ul li a{
+    margin: 0;
+
+    padding: 0;
+    
+    font-weight: 700;
+    
+    color: #fff;
+}
+.course ul li a{
+
+margin: 0;
+
+padding: 0;
+
+font-weight: 700;
+
+color: #fff;
+}
+.terms ul li a{
+    margin: 0;
+
+padding: 0;
+font-size: 30px;
+font-weight: 700;
+
+color: #fff;
+}
+.terms ul li{
+    margin: 0;
+
+    padding: 0;
+    
+    font-weight: 300;
+    
+    color: #fff;
+}
+.shawon{
+    margin: auto;
+}
