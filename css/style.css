@@ -251,7 +251,7 @@ list-style: none;
 
 font-size: 18px;
 
-padding: 0 0 0 20px;
+padding: 0 0 0 14px;
 
 line-height: 30px;
 }
@@ -259,7 +259,7 @@ line-height: 30px;
 .terms{
 
 }
-.terms ul{list-style: none;font-size: 18px;padding: 0 0 0 74px;line-height: inherit;}
+.terms ul{list-style: none;font-size: 18px;padding: 0 0 0 9px;line-height: inherit;}
 .terms ul li{
 
 text-align: start;
@@ -275,7 +275,7 @@ list-style: none;
 
 font-size: 18px;
 
-padding: 0 0 0 100px;
+padding: 0 0 0 20px;
 
 line-height: 30px;
 }
