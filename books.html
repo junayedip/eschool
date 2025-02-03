@@ -183,11 +183,14 @@
     </div>
 
     <script>
-        function openPDF(pdfURL) {
-            document.getElementById('pdfViewer').src = pdfURL;
-            var pdfModal = new bootstrap.Modal(document.getElementById('pdfModal'));
-            pdfModal.show();
-        }
-    </script>
+    function openPDF(pdfURL) {
+        // Google Docs Viewer ব্যবহার করে PDF প্রদর্শন
+        const viewerUrl = `https://docs.google.com/viewer?embedded=true&url=${encodeURIComponent(pdfURL)}`;
+        document.getElementById('pdfViewer').src = viewerUrl;
+        
+        const pdfModal = new bootstrap.Modal(document.getElementById('pdfModal'));
+        pdfModal.show();
+    }
+</script>
 </body>
 </html>
